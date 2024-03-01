@@ -1,0 +1,29 @@
+/* common CSS  */
+header, main{
+    margin: 80px 160px;
+}
+/* Navigation Bar  */
+.nav-bar,
+.nevigation-bar {
+    display: flex;
+
+}
+.gray-text{
+    color: #424247;
+    font-size: 1.5rem;
+}
+
+.nevigation-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 20px;
+
+}
