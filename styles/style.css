@@ -1,29 +1,125 @@
 /* common CSS  */
-header, main{
+header,
+main {
     margin: 80px 160px;
+}
+
+/* font size & color */
+.gray-text {
+    color: #424247;
+    font-size: 1.2rem;
+}
+
+#a-home {
+    color: #FF5400;
+}
+.text-tomatto  {
+    color: #FF5400;
+}
+.btn-primary{
+    background-color: #FF5400 ;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    width: 25%;
+    height: 10%;
+    font-size:1.5rem;
+    margin-top: 50PX;
+
 }
 /* Navigation Bar  */
 .nav-bar,
-.nevigation-bar {
-    display: flex;
-
-}
-.gray-text{
-    color: #424247;
-    font-size: 1.5rem;
-}
-
 .nevigation-bar{
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-ul {
+.nav-bar> img{
+    margin-right: 20px;
+    width: 55px;
+    height: 45px;
+}
+.nav-bar> h3{
+    font-size: 2.8rem;
+}
+
+.nav-bar> ul {
     list-style-type: none;
 }
 
 ul>li>a {
     text-decoration: none;
-    font-size: 1.2rem;
     padding: 20px;
 
+}
+/* banner & background Images */
+.first-container {
+    display: flex;
+    /* gap: 120px; */
+    justify-content:space-between;
+}
+h2{
+    font-size: 2.5rem;
+}
+.tour-img> img{
+    height: 90%;
+    border: 5px solid red;
+    margin-left: 150px;
+}
+.choice-para{
+    text-align: center;
+}
+/* Add Image Section  */
+
+ .img-cont-one,
+.img-cont-two,
+.img-cont-three
+{
+    display: grid;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    color: #FFf;
+    /* border-radius: 10px; */
+}
+.img-cont-one{
+    grid-template-columns: repeat(2, 1fr);
+}
+.img-cont-two{
+    grid-template-columns: 2fr 3fr 2fr;
+}
+.img-cont-three{
+    grid-template-columns: 500px auto;
+}
+.bd, .bandar, 
+.maldiv,.indonesia,
+.srilanka, .america, .kashmir
+{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   height: 300px;
+   width: 95%;
+   
+}
+.maldiv{
+background-image: url('../Images/Maldiv.png');
+}
+.indonesia{
+    background-image: url('../Images/Indonesia.png');
+}
+.bd{
+    background-image: url('../Images/BD-river.png');
+}
+.bandar{
+    background-image: url('../Images/Bandar-ban.png');
+}
+.kashmir{
+    background-image: url('../Images/Kasmir.png');
+}
+.america{
+    background-image: url('../Images/America.png');
+}
+.srilanka{
+    background-image: url('../Images/Srilanka.png');
 }
