@@ -7,6 +7,9 @@
     font-weight: <weight>;
     font-style: normal;
 }
+.hide{
+    display: none;
+}
 
 * {
     font-family: "Work Sans", sans-serif;
@@ -74,11 +77,42 @@ ul>li>a {
     padding: 20px;
 
 }
+/* HEADING OF MY BAnner Section  */
+.banner-section{
+    background-image: url('../Images/Banner.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 99%;
+}
+.darken-image{
+    text-align: center;
+    color: #FFf;
+    padding-top: 90px;
+    padding-left: 60px;
+}
+.banner-details>h1{
+font-size: 4rem;
+}
+.over-rigt-img{
+    height: 55px;
+    width: 175px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.input-section{
+    box-shadow: 20px 0px 0px 20px whitesmoke;
+    width: 70%;
+    align-items: center;
+    margin-left: 200px;
+    height: 90%;
+}
 
 /* banner & background Images */
 .first-container {
     display: flex;
-    /* gap: 120px; */
     justify-content: space-between;
 }
 
@@ -318,7 +352,13 @@ footer {
 
 /* Responsive for Mobile device ? */
 @media screen and (max-width:600px) {
-    h2 {
+    .hide-1{
+        display: none;
+    }
+    .hide{
+        display:block;
+    }
+    h2, .banner-details>h1 {
         font-size: 2.1rem;
     }
 
@@ -330,14 +370,46 @@ footer {
     }
 
     .nav-bar,
+     .nevigation-bar
+     {
+        display: flex;
+     }
     .lets-go,
-    .nevigation-bar,
     .hotel-address,
     .first-container {
         display: flex;
         flex-direction: column;
     }
+    .nav-bar>h3{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    ul> a> img{
+        height: 50px;
+    }
+    /* Watermark Banner  */
+    .banner-section{
+        height: 100%;
+        width: 100%;
+    }
+    .darken-image{
+        padding: 12px;
+    }
+    .input-section{   
+        width: 90%;
+        margin: 30px;
+        height: 80%;
+    }
+    .over-rigt-img{
+        height: 60px;
+        width: 260px;
+        border-radius: 10px;
+        padding-left: 20px;
+        font-size: 1.4rem;
+        margin: 20px;
+    }
 
+    /* end of header section  */
     .tour-img>img {
         margin: 25px 10px;
         width: 95%;
@@ -358,7 +430,7 @@ footer {
     .best-price {
         margin-top: 280px;
         height: 300px;
-        width: 450px;
+        width: 410px;
         box-shadow: none;
 
     }
