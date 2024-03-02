@@ -27,38 +27,45 @@ main {
 #a-home {
     color: #FF5400;
 }
-.text-tomatto  {
+
+.text-tomatto {
     color: #FF5400;
 }
+
 .btn-primary {
     border: 0;
     text-align: center;
     border-radius: 10px;
     width: 180px;
     height: 70px;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     margin-top: 50PX;
 }
+
 /* Navigation Bar  */
-.nav-bar, .lets-go,
-.nevigation-bar{
+.nav-bar,
+.lets-go,
+.nevigation-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
-.nav-bar> img{
+
+.nav-bar>img {
     margin-right: 20px;
     width: 55px;
     height: 45px;
 }
-.nav-bar> h3{
+
+.nav-bar>h3 {
     font-size: 2.8rem;
 }
-h4{
+
+h4 {
     font-size: 1.8rem;
 }
-.nav-bar> ul {
+
+.nav-bar>ul {
     list-style-type: none;
 }
 
@@ -67,209 +74,364 @@ ul>li>a {
     padding: 20px;
 
 }
+
 /* banner & background Images */
 .first-container {
     display: flex;
     /* gap: 120px; */
-    justify-content:space-between;
+    justify-content: space-between;
 }
-h2{
+
+h2 {
     font-size: 2.8rem;
 }
-.tour-img> img{
-    height: 90%;
-    border: 5px solid red;
+
+.tour-img>img {
+    height: 95%;
     margin-left: 150px;
 }
-.choice-para{
+
+
+.choice-para {
     text-align: center;
 }
+
 /* Add Image Section  */
 
- .img-cont-one,
+.img-cont-one,
 .img-cont-two,
-.img-cont-three
-{
+.img-cont-three {
     display: grid;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
     padding: 20px;
     color: #FFf;
-    /* border-radius: 10px; */
+
 }
-.img-cont-one{
+
+.img-cont-one {
     grid-template-columns: repeat(2, 1fr);
 }
-.img-cont-two{
+
+.img-cont-two {
     grid-template-columns: 2fr 3fr 2fr;
 }
-.img-cont-three{
+
+.img-cont-three {
     grid-template-columns: 500px auto;
 }
-.bd, .bandar, 
-.maldiv,.indonesia,
-.srilanka, .america, .kashmir
-{
+
+.bd,
+.bandar,
+.maldiv,
+.indonesia,
+.srilanka,
+.america,
+.kashmir {
     background-size: 100% 100%;
     background-repeat: no-repeat;
-   height: 300px;
-   width: 95%;
-   
+    height: 300px;
+    width: 95%;
 }
-.maldiv{
-background-image: url('../Images/Maldiv.png');
+
+.maldiv {
+    background-image: url('../Images/Maldiv.png');
 }
-.indonesia{
+
+.indonesia {
     background-image: url('../Images/Indonesia.png');
 }
-.bd{
+
+.bd {
     background-image: url('../Images/BD-river.png');
 }
-.bandar{
+
+.bandar {
     background-image: url('../Images/Bandar-ban.png');
 }
-.kashmir{
+
+.kashmir {
     background-image: url('../Images/Kasmir.png');
 }
-.america{
+
+.america {
     background-image: url('../Images/America.png');
 }
-.srilanka{
+
+.srilanka {
     background-image: url('../Images/Srilanka.png');
 }
+
 /* hotel & service section  */
-.hotel-address{
+.hotel-address {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    height:290px;
+    height: 400px;
     margin: 60px 0px;
 }
+
 .hotel,
-.service, .best-price{
+.service,
+.best-price {
     border-radius: 25px;
     padding: 30px;
 }
-.hotel{
+
+.hotel {
     background-color: #fae9d5d9;
     border: 2px solid #efdcc5;
 }
-.service{
+
+.service {
     background-color: #effcff;
     border: 2px solid #d5eaef;
 }
-.best-price{
+
+.best-price {
     margin: 20px auto;
-    height: 200px;
+    height: 300px;
     width: 750px;
-   background-color: #fdececc2;
-   border: 2px solid #eed6d6c2;
+    background-color: #fdececc2;
+    border: 2px solid #eed6d6c2;
     padding: 30px;
     box-shadow: 0px 5px 10px 0px rgb(134, 133, 133);
 }
-.simple-img{
+
+.simple-img {
     background-size: 100% 100%;
     background-repeat: no-repeat;
-   background-image: url('../Images/Group\ 40089.png');
-   /* border: 2px solid forestgreen; */
-   margin-left: 50px;
-   width: 980px;
-  height : 420px;
-  margin-top: 100px;
-  text-align: center;
-  color: #FFf;
-  font-size: 1.8rem;
-  font-weight: 700;
+    background-image: url('../Images/Group\ 40089.png');
+    margin-left: 50px;
+    width: 980px;
+    height: 420px;
+    margin-top: 100px;
+    text-align: center;
+    color: #FFf;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
-.simple-place> ul>li{
+
+.simple-place>ul>li {
     font-size: 1.2rem;
     font-weight: 700;
 }
 
-    /* Susbscribe section.  */
-    .Subscribe{
-        display: grid;
-        grid-template-columns: 700px auto;
-        margin: 100px 0px;
-        gap: 50px;
-    }
+/* Susbscribe section.  */
+.Subscribe {
+    display: grid;
+    grid-template-columns: 700px auto;
+    margin: 100px 0px;
+    gap: 50px;
+}
 
-    .save-up>img{
-        width: 100%;
-    }
-    .sign-up{
-        height: 64%;
-        width: 70%;
-        margin-left: 100px;
-        border: 1px solid #FF5400;
-        border-radius: 10px;
-        padding: 50px;
-    }
-    .name-border{
-        border-top: 1px solid #a3a3a3 ;
-        margin: 50px 0px;
-        /* padding: 50px; */
-    }
-    .name-border> input, .last-btn{
-        height: 60px;
-        width: 100%;
-        margin-top: 25px;
-        background-color: #f0f0f0;
-        border: 0;
-        border-radius: 8px;
-    }
-        /* All Common color CSS OrANGE colgroup  */
-    .last-btn,
-    .btn-primary,
-    .water-mark{
-        background-color: #FF5400 ;
-        color: #FFF;
-    }
-    .water-mark{
-        text-align: center;
-        border-radius: 10px;
-        height: 80px;
-        width: 36%;
-        padding: 15px;
-        position: relative;
-        bottom: 170px;
-        transform: rotate(-20deg) ;
-        margin-left: 480px;
-    }
-    .water-mark>h3{
-        font-size: 1.4rem;
-        font-weight: 400;
-        margin: 5px;
-    }
-    .water-mark>h4{
-        margin:0px;
-    }
+.save-up>img {
+    width: 100%;
+}
 
-    /* FOOTER SECTION // LAST PART  */
-    footer{
-        background-color: #f2f1f1 ;
-        text-align: center;
-        height: 570px;
-    }
+.sign-up {
+    height: 64%;
+    width: 70%;
+    margin-left: 100px;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 50px;
+}
 
-    /* first part of footer  */
-.footer-img-logo> img{
+.name-border {
+    border-top: 1px solid #a3a3a3;
+    margin: 50px 0px;
+    /* padding: 50px; */
+}
+
+.name-border>input,
+.last-btn {
+    height: 60px;
+    width: 100%;
+    margin-top: 25px;
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* All Common color CSS OrANGE colgroup  */
+.last-btn,
+.btn-primary,
+.water-mark {
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+.water-mark {
+    text-align: center;
+    border-radius: 10px;
+    height: 80px;
+    width: 36%;
+    padding: 15px;
+    position: relative;
+    bottom: 170px;
+    transform: rotate(-20deg);
+    margin-left: 480px;
+}
+
+.water-mark>h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.water-mark>h4 {
+    margin: 0px;
+}
+
+/* FOOTER SECTION // LAST PART  */
+footer {
+    background-color: #f2f1f1;
+    text-align: center;
+    height: 570px;
+}
+
+/* first part of footer  */
+.footer-img-logo>img {
     margin-top: 100px;
     width: 17%;
 }
-.social-media>img{
+
+.social-media>img {
     margin-top: 50px;
     height: 20px;
     width: 20px;
     margin-left: 30px;
 }
-.resrved{
+
+.resrved {
     border-top: 1px solid #cfcdcd;
     width: 50%;
     margin-left: 500px;
-    margin-top: 55px ;
+    margin-top: 55px;
 }
-.resrved>p{
-    margin-top: 50px ;
+
+.resrved>p {
+    margin-top: 50px;
+}
+
+/* Responsive for Mobile device ? */
+@media screen and (max-width:600px) {
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    header,
+    main,
+    .choice-para {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .nav-bar,
+    .lets-go,
+    .nevigation-bar,
+    .hotel-address,
+    .first-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tour-img>img {
+        margin: 25px 10px;
+        width: 95%;
+
+    }
+
+    .bd,
+    .bandar,
+    .maldiv,
+    .indonesia,
+    .srilanka,
+    .america,
+    .kashmir {
+        height: 98%;
+        width: 110%;
+    }
+
+    .best-price {
+        margin-top: 280px;
+        height: 300px;
+        width: 450px;
+        box-shadow: none;
+
+    }
+
+    .simple-img {
+        margin: 20px;
+        width: 520px;
+        height: 370px;
+    }
+
+    .img-cont-one,
+    .img-cont-two,
+    .img-cont-three {
+        font-size: 2.5rem;
+        gap: 25px;
+    }
+
+
+
+    .Subscribe,
+    .img-cont-one,
+    .img-cont-two,
+    .img-cont-three {
+        grid-template-columns: 1fr;
+        margin: 10px;
+
+    }
+
+    .sign-up {
+        height: 70%;
+        width: 80%;
+        margin: 10px;
+
+    }
+
+    .save-up>img {
+        height: 90%;
+        width: 100%;
+    }
+
+    .water-mark {
+        border-radius: 10px;
+        height: 80px;
+        width: 36%;
+        padding: 5px;
+        /* position: relative;
+        bottom: 170px; */
+        transform: rotate(-20deg);
+        margin-left: 80px;
+    }
+
+    /* footer responsive */
+    footer {
+        height: 450px;
+    }
+
+    .footer-img-logo>img {
+        margin-top: 15px;
+        width: 50%;
+    }
+
+    .footer-img-logo>p {
+        padding: 18px;
+        margin-bottom: 5px;
+    }
+
+    .resrved {
+        width: 85%;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .resrved>p {
+        margin-top: 30px;
+    }
 }
