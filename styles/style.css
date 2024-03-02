@@ -492,9 +492,9 @@ footer {
         width: 60%;
         padding: 5px;
         position: relative;
-        bottom: 140px;
+        bottom: 146px;
         transform: rotate(-20deg);
-        margin-left: 140px;
+        margin-left: 170px;
     }
 
     .water-mark>h3 {
