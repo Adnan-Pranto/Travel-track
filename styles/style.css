@@ -1,7 +1,21 @@
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.work-sans-<uniquifier> {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
 /* common CSS  */
 header,
 main {
-    margin: 80px 160px;
+    margin: 50px 160px;
 }
 
 /* font size & color */
@@ -16,23 +30,22 @@ main {
 .text-tomatto  {
     color: #FF5400;
 }
-.btn-primary{
-    background-color: #FF5400 ;
-    color: #fff;
+.btn-primary {
     border: 0;
-    border-radius: 20px;
-    width: 25%;
-    height: 10%;
+    text-align: center;
+    border-radius: 10px;
+    width: 180px;
+    height: 70px;
     font-size:1.5rem;
     margin-top: 50PX;
-
 }
 /* Navigation Bar  */
-.nav-bar,
+.nav-bar, .lets-go,
 .nevigation-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .nav-bar> img{
     margin-right: 20px;
@@ -42,7 +55,9 @@ main {
 .nav-bar> h3{
     font-size: 2.8rem;
 }
-
+h4{
+    font-size: 1.8rem;
+}
 .nav-bar> ul {
     list-style-type: none;
 }
@@ -59,7 +74,7 @@ ul>li>a {
     justify-content:space-between;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 .tour-img> img{
     height: 90%;
@@ -123,3 +138,108 @@ background-image: url('../Images/Maldiv.png');
 .srilanka{
     background-image: url('../Images/Srilanka.png');
 }
+/* hotel & service section  */
+.hotel-address{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    height:290px;
+    margin: 60px 0px;
+}
+.hotel,
+.service, .best-price{
+    border-radius: 25px;
+    padding: 30px;
+}
+.hotel{
+    background-color: #fae9d5d9;
+    border: 2px solid #efdcc5;
+}
+.service{
+    background-color: #effcff;
+    border: 2px solid #d5eaef;
+}
+.best-price{
+    margin: 20px auto;
+    height: 200px;
+    width: 750px;
+   background-color: #fdececc2;
+   border: 2px solid #eed6d6c2;
+    padding: 30px;
+    box-shadow: 0px 5px 10px 0px rgb(134, 133, 133);
+}
+.simple-img{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   background-image: url('../Images/Group\ 40089.png');
+   /* border: 2px solid forestgreen; */
+   margin-left: 50px;
+   width: 980px;
+  height : 420px;
+  margin-top: 100px;
+  text-align: center;
+  color: #FFf;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.simple-place> ul>li{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+    /* Susbscribe section.  */
+    .Subscribe{
+        display: grid;
+        grid-template-columns: 700px auto;
+        margin: 100px 0px;
+        gap: 50px;
+    }
+
+    .save-up>img{
+        width: 100%;
+    }
+    .sign-up{
+        height: 64%;
+        width: 70%;
+        margin-left: 100px;
+        border: 1px solid #FF5400;
+        border-radius: 10px;
+        padding: 50px;
+    }
+    .name-border{
+        border-top: 1px solid #a3a3a3 ;
+        margin: 50px 0px;
+        /* padding: 50px; */
+    }
+    .name-border> input, .last-btn{
+        height: 60px;
+        width: 100%;
+        margin-top: 25px;
+        background-color: #f0f0f0;
+        border: 0;
+        border-radius: 8px;
+    }
+        /* All Common color CSS OrANGE colgroup  */
+    .last-btn,
+    .btn-primary,
+    .water-mark{
+        background-color: #FF5400 ;
+        color: #fff;
+    }
+    .water-mark{
+        text-align: center;
+        border-radius: 10px;
+        height: 100px;
+        width: 38%;
+        padding: 20px;
+        position: relative;
+        bottom: 210px;
+        transform: rotate(-20deg) ;
+        margin-left: 450px;
+    }
+    .water-mark>h3{
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 0.8;
+        
+    }
