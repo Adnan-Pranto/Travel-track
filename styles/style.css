@@ -224,22 +224,52 @@ background-image: url('../Images/Maldiv.png');
     .btn-primary,
     .water-mark{
         background-color: #FF5400 ;
-        color: #fff;
+        color: #FFF;
     }
     .water-mark{
         text-align: center;
         border-radius: 10px;
-        height: 100px;
-        width: 38%;
-        padding: 20px;
+        height: 80px;
+        width: 36%;
+        padding: 15px;
         position: relative;
-        bottom: 210px;
+        bottom: 170px;
         transform: rotate(-20deg) ;
-        margin-left: 450px;
+        margin-left: 480px;
     }
     .water-mark>h3{
         font-size: 1.4rem;
         font-weight: 400;
-        line-height: 0.8;
-        
+        margin: 5px;
     }
+    .water-mark>h4{
+        margin:0px;
+    }
+
+    /* FOOTER SECTION // LAST PART  */
+    footer{
+        background-color: #f2f1f1 ;
+        text-align: center;
+        height: 570px;
+    }
+
+    /* first part of footer  */
+.footer-img-logo> img{
+    margin-top: 100px;
+    width: 17%;
+}
+.social-media>img{
+    margin-top: 50px;
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+.resrved{
+    border-top: 1px solid #cfcdcd;
+    width: 50%;
+    margin-left: 500px;
+    margin-top: 55px ;
+}
+.resrved>p{
+    margin-top: 50px ;
+}
