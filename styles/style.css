@@ -101,15 +101,20 @@ font-size: 4rem;
     padding-left: 20px;
     font-size: 1.2rem;
     margin-left: 20px;
+
 }
 .input-section{
-    box-shadow: 20px 0px 0px 20px whitesmoke;
+    box-shadow: 0px 0px 40px 10px ;
     width: 70%;
-    align-items: center;
-    margin-left: 200px;
-    height: 90%;
+    border-radius: 12px;
+    background-color: #e6e4e4;
+    opacity: 0.8;
+    margin: 10px 240px;
 }
-
+button>img{
+    height: 40%;
+    margin-right: 15px;
+}
 /* banner & background Images */
 .first-container {
     display: flex;
@@ -251,6 +256,15 @@ h2 {
     font-size: 1.2rem;
     font-weight: 700;
 }
+.vectior-img> div> div> img,
+.vectior-3
+{
+    height: 85px;
+    width: 90px;
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
 
 /* Susbscribe section.  */
 .Subscribe {
@@ -304,9 +318,9 @@ h2 {
     width: 36%;
     padding: 15px;
     position: relative;
-    bottom: 200px;
+    bottom: 180px;
     transform: rotate(-20deg);
-    margin-left: 500px;
+    margin-left: 490px;
 }
 
 .water-mark>h3 {
@@ -428,9 +442,9 @@ footer {
     }
 
     .best-price {
-        margin-top: 280px;
+        margin-top: 500px;
         height: 300px;
-        width: 410px;
+        width: 90%;
         box-shadow: none;
 
     }
@@ -474,12 +488,19 @@ footer {
     .water-mark {
         border-radius: 10px;
         height: 80px;
-        width: 36%;
+        width: 60%;
         padding: 5px;
-        /* position: relative;
-        bottom: 170px; */
+        position: relative;
+        bottom: 140px;
         transform: rotate(-20deg);
-        margin-left: 80px;
+        margin-left: 140px;
+    }
+
+    .water-mark>h3 {
+        font-size: 1.2rem;
+    }
+    .water-mark>h4 {
+        font-size: 1.6rem;
     }
 
     /* footer responsive */
