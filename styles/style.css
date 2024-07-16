@@ -365,6 +365,11 @@ footer {
 }
 
 /* Responsive for Mobile device ? */
+body{
+    background: black;
+    color: white;
+}
+
 @media screen and (max-width:600px) {
     .hide-1{
         display: none;
